@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <table >
+        <td>
+    
+    
+<form action="enviar formulario" method="post"> 
+    <legend><h1>formulario </h1></legend>
+    <label for="name">Nombre</label>
+    <input type="text" name="name" maxlength="50" required>
+<br>
+    <label for="apellido">Apellido</label>
+    <input type="text" name="apellido" maxlength="50" 
+    required > 
+<br>
+    <label for="sexo">Sexo</label>
+    <select name="sexo" required>
+        <option value="blanco" disabled selected>.....</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+
+
+    </select>
+<br>
+    <label for="Email">Email</label>
+    <input type="email" pattern="+@example.com" required placeholder="@example.com"  >
+<br>
+    <input type="checkbox" checked>
+    <label for="terminos">
+       Deseo recibir información sobre novedades y ofertas</label>
+<br>
+    <input type="checkbox" required >
+    <label for="terminos y condiciones" >  Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos </label>
+<br>
+    <label for="ciudad">Ciudad</label>
+    <select name="poblacion " >
+        <option value="blanco" disabled selected>...</option>
+        <option value="Bucaramanga">Bucaramanga</option>
+        <option value="Giron">Giron</option>
+        <option value="Floridablanca">Floridablanca</option>
+        <option value="Piedecuesta">Piedecuesta</option>
+
+ 
+    </select>
+<br>
+<p>descripcion:</p>
+<textarea name="descripcion" rows="3" cols="50"></textarea>
+
+<br>
+    <button>subir</button>
+</form>
+</td>
+    </table>
+
+</body>
+</html>
