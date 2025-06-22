@@ -54,5 +54,49 @@ body {
     margin-bottom: auto;
     text-align: center;
     margin-top: 100px;
-    color:darkgray
+    color:lavender
+}
+.box-sing{
+    
+    background-color: white;  
+    color: black;              
+    padding: 12px 20px;        
+    border: none;             
+    border-radius: 50px;      
+    font-size: 90px;   
+    cursor: pointer; 
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+  
+}
+.box-live{
+    width: 5000px;
+    display: block;
+    margin: 600px auto;
+    text-align: center;
+    padding:  12px 20px; 
+    background-color: #06aae0;
+    border-radius: 50px;
+
+}
+.head-live{
+
+    color: white; 
+    margin-top: 50px;
+    font-size: 200px;  
+
+}
+.televisor{
+
+    margin: 50px auto;
+    width: 700px;
+    
+    
+}
+.texto2{
+    color:lavender;
+     margin: 50px;
+    font-size: 100px;  
+
 }
