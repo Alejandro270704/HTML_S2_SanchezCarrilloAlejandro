@@ -1,1 +1,58 @@
 
+body {
+    background-image: url(img/fondotwitch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.LogoPrime img{
+    width: 1800px;          
+    margin: 150px auto 0;
+}
+.LogoPrime {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lupa img{
+    width: 100px; 
+    height: auto;
+    margin: 70px;
+    margin-left: 150px;
+    cursor: pointer; 
+}
+.box-login {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;  
+    color: black;              
+    padding: 12px 20px;        
+    border: none;             
+    border-radius: 50px;      
+    font-size: 70px;        
+    cursor: pointer; 
+    margin: 90px;
+    
+}
+.head{
+    font-size: 200px;  
+    margin-bottom: auto;
+    text-align: center;
+    margin-top: -200px;
+    color: white;
+    
+}
+.texto1{
+    
+    font-size: 100px;  
+    margin-bottom: auto;
+    text-align: center;
+    margin-top: 100px;
+    color:darkgray
+}
