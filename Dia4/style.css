@@ -148,5 +148,28 @@
 .img-cancel{
     width: 300px;
 }
-
-
+.box-final{
+    color: white;
+    text-align: center;
+    font-size: 170px;
+}
+.box-final img{
+    width: 1300px;
+    background-position: center;
+}
+.credits button{
+    
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+   
+}
+.credits {
+    display: flex;             
+    margin-left: 23%; 
+    gap: 200px;                 
+    padding: 50px;
+    
+}
