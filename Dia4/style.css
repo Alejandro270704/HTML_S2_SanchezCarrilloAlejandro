@@ -1,5 +1,5 @@
 
-body {
+.inicio {
     background-image: url(img/fondotwitch.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -7,9 +7,14 @@ body {
     background-color: black;
     background-attachment: fixed;
     position: relative;
+   
     
 }
-
+.fondo{
+    background-color: black;
+ 
+    
+}
 .LogoPrime img{
     width: 1800px;          
     margin: 150px auto 0;
@@ -51,7 +56,7 @@ body {
 .texto1{
     
     font-size: 100px;  
-    margin-bottom: auto;
+    margin-bottom: 70px;
     text-align: center;
     margin-top: 100px;
     color:lavender
@@ -68,14 +73,15 @@ body {
     display: block;
     margin: 300px auto;
     text-align: center;
+   
   
 }
 .box-live{
     width: 5000px;
     display: block;
-    margin: 600px auto;
+    margin: 120px auto;
     text-align: center;
-    padding:  120px 20px; 
+    padding:  80px 20px; 
     background-color: #06aae0;
     border-radius: 200px;
     margin-bottom: auto;
@@ -102,7 +108,7 @@ body {
 }
 .box-movies{
     display: block;
-    padding:  120px 20px; 
+    padding:  80px 20px; 
     width: 5000px;
     background-color: #06aae0;
     margin: 100px auto;
@@ -114,12 +120,33 @@ body {
 .texto3{
     font-size: 200px;
     color: white;
+    
 
 
 }
 .box-movies img{
     width: 500px;
 
+}
+.box-cancel{
+    display: block;
+    padding:  300px 20px; 
+    width: 5000px;
+    background-color: #06aae0;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 200px;
+}
+.titulo-cancel{
+    font-size: 200px;
+    color: white;
+}
+.texto4{
+    font-size: 100px;
+    color: lavender;
+}
+.img-cancel{
+    width: 300px;
 }
 
 
