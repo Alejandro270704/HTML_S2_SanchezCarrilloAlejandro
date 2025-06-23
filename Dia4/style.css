@@ -153,6 +153,9 @@
     text-align: center;
     font-size: 170px;
 }
+.texto5{
+    color: lavender;
+}
 .box-final img{
     width: 1300px;
     background-position: center;
@@ -172,4 +175,27 @@
     gap: 200px;                 
     padding: 50px;
     
+}
+
+.flecha1{
+    background-color: transparent;
+    border: none;
+    font-size: 100px;
+    color: dimgray;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    left: 600px;
+    bottom: 1100px;
+}
+.flecha2{
+    background-color: transparent;
+    border: none;
+    font-size: 100px;
+    color:dimgrey;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 600px;
+    bottom: 1100px;
 }
