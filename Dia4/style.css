@@ -61,7 +61,7 @@
     margin-top: 100px;
     color:lavender
 }
-.box-sing{
+.box-sign{
     
     background-color: white;  
     color: black;              
@@ -97,6 +97,7 @@
 
     margin: 50px auto;
     width: 700px;
+    
     
     
 }
@@ -198,4 +199,8 @@
     position: absolute;
     right: 600px;
     bottom: 1100px;
+}
+.texto6{
+    font-size: 100px;
+    color: lavender;
 }
