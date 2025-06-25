@@ -1,5 +1,7 @@
 
-
+body{
+    margin: 0;
+}
 .inicio {
     background-image: url(img/fondotwitch.png);
     background-position: center;
@@ -8,7 +10,9 @@
     background-color: black;
     background-attachment: fixed;
     position: relative;
-   
+    
+    
+
     
 }
 .fondo{
