@@ -107,19 +107,27 @@ ul {
     margin-bottom: 40px;
 }
 #card{
-    width: 800px;
-    margin-left: 200px;
+    width: 600px;
+    margin-left: 350px;
 }
 .texto{
     
-    margin-left: 70px;
+    margin-left: 0;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 20px;
+}
+.texto button{
+    background-color: transparent;
+    font-size: 20px;
+    color: dimgrey;
 }
 .shopping{
     background-color: greenyellow;
     width: 150px;
     font-size: 15px;
     margin-left: 1000px;
-    margin-top: -110px;
+    margin-top: -60px;
     align-items: center;
     text-align: center;
     
