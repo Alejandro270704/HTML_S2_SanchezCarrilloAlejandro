@@ -1,0 +1,116 @@
+
+.principal{
+    margin: 0;
+    padding: 0;
+    
+}
+.menu-horizontal {
+    display: flex;
+    position: relative;
+    
+    
+    
+
+}
+.metro {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.tarjeta{
+    
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 5px;
+
+    
+}
+.saldo {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+.lupa{
+    background-color: transparent;
+    border: none;
+    margin-left: 13px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.lupa img{
+    width: 25px;
+}
+.shoppe{
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.shoppe img {
+    width: 30px;
+}
+.sidebar button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 23px;
+
+    
+}
+.sidebar{
+    
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#boton1,#boton2{
+    cursor: pointer;
+}
+#boton1{
+    transform: rotate(-90deg);
+    margin-top: 20px;
+    
+}
+#boton2{
+    transform:rotate(90deg);
+    margin-top: auto;
+}
+#boton3{
+    margin-top: 100px;
+}
+ul {
+    list-style: none;
+    margin-right: 45%;
+    margin-top: 65px;
+   
+}
+#li1,#li2{
+    color: dimgray;;
+}
+.ul,li{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#card{
+    width: 800px;
+    margin-left: 200px;
+}
+.texto{
+    
+    margin-left: 70px;
+}
