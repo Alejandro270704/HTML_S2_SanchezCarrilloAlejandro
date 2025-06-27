@@ -1,0 +1,34 @@
+
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: titulo;
+    src: url(
+        ../home/camper/HTML_S2_SanchezCarrilloAlejandro/Dia7/font/DMSerifText-Italic.ttf);
+}
+.encabezado{
+    display: flex;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 20px 30px;
+    gap: 20px;
+}
+
+.start{
+    color: white;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+.start img{
+    width: 450px;
+
+}
+#logo{
+    color: white;
+}
