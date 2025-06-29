@@ -43,6 +43,7 @@ body {
     border: none;
     font-size: 16px;
     padding: 5px 30px;
+
 }
 .second-section{
     color: white;
@@ -75,4 +76,27 @@ body {
     background-color:rgb(248, 193, 111) ;
     border: none;
     padding: 5px 30px;
+}
+.third-page{
+    
+    color: white;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+.third-page img{
+    width: 350px;
+    margin-left: 600px;
+    margin-top: -270px;
+}
+.third-page p{
+    color:gainsboro;
+}
+.third-page button{
+    position: relative;
+    border: none;
+    background-color: rgb(248, 193, 111);
+    top: -60px;
+    padding: 7px 20px;
 }
