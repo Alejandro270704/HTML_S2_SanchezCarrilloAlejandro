@@ -100,3 +100,36 @@ body {
     top: -60px;
     padding: 7px 20px;
 }
+.fourth-page{
+    font-size: 40px;
+    color: white;
+    margin-top: 170px;
+    margin-left: 100px;
+    
+}
+.content-fourth{
+    display: flex;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    justify-content: space-around;
+   
+}
+.content-fourth img {
+    width: 100px;
+}
+
+
+.content-fourth fieldset{
+    border-color: rgb(248, 193, 111);
+    width: 200px;
+    height: 400px;
+}
+.cubo1,.cubo3,.cubo2{
+    text-align: left;
+    margin-left: 65px;
+}
+.content-fourth button{
+    background-color:  rgb(248, 193, 111);
+    margin-top: 40px;
+}
