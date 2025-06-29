@@ -42,4 +42,37 @@ body {
     background-color:rgb(248, 193, 111);
     border: none;
     font-size: 16px;
+    padding: 5px 30px;
+}
+.second-section{
+    color: white;
+    
+    
+}
+.second-section img{
+    width: 500px;
+    margin-top: 200px;
+}
+.titulo {
+    margin-top: -60px;
+    font-size:60px;
+    margin-left: 800px;
+    
+}
+.linea{
+    margin-left: 670px;
+    margin-top: -290px ;
+
+
+}
+.texto1{
+    margin-top: 0px;
+    font-size: 15px;
+    margin-left: 800px;
+}
+.boton1{
+    margin-left: 800px;
+    background-color:rgb(248, 193, 111) ;
+    border: none;
+    padding: 5px 30px;
 }
