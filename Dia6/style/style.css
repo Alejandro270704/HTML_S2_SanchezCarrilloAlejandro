@@ -1,7 +1,9 @@
 
 body {
     background-color: black;
+
 }
+
 @font-face {
     font-family: letra1;
     src: url(../font/DMSerifText-Italic.ttf );
@@ -17,6 +19,16 @@ body {
     margin-left: 800px;
     margin-top: -85px;
     cursor: pointer;
+}
+
+.encabezado h2 {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    transition: text-decoration-color 0.2s ease;
+}
+
+.encabezado h2:hover {
+    text-decoration-color: rgb(248, 193, 111);
 }
 
 .start{
@@ -43,6 +55,7 @@ body {
     border: none;
     font-size: 16px;
     padding: 5px 30px;
+    cursor: pointer;
 
 }
 .second-section{
@@ -76,6 +89,7 @@ body {
     background-color:rgb(248, 193, 111) ;
     border: none;
     padding: 5px 30px;
+    cursor: pointer;
 }
 .third-page{
     
@@ -99,6 +113,7 @@ body {
     background-color: rgb(248, 193, 111);
     top: -60px;
     padding: 7px 20px;
+    cursor: pointer;
 }
 .fourth-page{
     font-size: 40px;
@@ -132,6 +147,8 @@ body {
 .content-fourth button{
     background-color:  rgb(248, 193, 111);
     margin-top: 40px;
+    border: none;
+    cursor: pointer;
 }
 #linea2{
     
