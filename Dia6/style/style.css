@@ -1,8 +1,10 @@
 
 body {
     background-color: black;
-
+    
 }
+ 
+
 
 @font-face {
     font-family: letra1;
@@ -186,4 +188,11 @@ body {
     color: white;
     text-align: center;
     font-size: 14px;
+}
+
+button:hover{
+    background-color:  rgb(245, 163, 56);
+}
+button{
+    transition: 0.2s ease;
 }
