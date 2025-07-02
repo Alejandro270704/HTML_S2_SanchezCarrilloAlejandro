@@ -32,6 +32,9 @@
 
 ---
 
+## 📅 Día 5 - proyecto card 
+- puse en practica lo visto de paginas web para imitar la imagen de la pagina que nos daban 
+- use metodos de sidebar e hiperbinculos en esta pagina 
 ## 🚀 Cómo verlo
 ingresa al link con tu navegador:
 
