@@ -1,25 +1,26 @@
 
 body{
-    background-color: white;
+    background-color: rgb(19, 22, 40);
     
 }
 .box-1 {
     background-color: black;
-    
-    
     border-radius: 1vw;
+    margin: 5vw 15vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 1fr 1fr 2fr;
+    width: auto;
     
 }
 .box-1 img{
     border-radius: 1vw;
-    margin: 10vw 10vw;
+    margin: 1vw 1vw;
 }
 .elemento1{
     grid-column: 1/2;
     grid-row: 1/2;
+    
 }
 .elemento1 img {
     
@@ -40,13 +41,12 @@ body{
 }
 .elemento3 img{
    
-    width: 20vw;
+    width: 30vw;
 
 }
 .elemento4 img{
    
-    width: 75vw;
-    height: 50vw;
+    width: 65vw;
     
 
 }
@@ -63,12 +63,15 @@ body{
 }
 .box-2{
     background-color: black;
-    margin: 10vw 5vw;
-   
+    margin: 1vw 15vw;
     border-radius: 1vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    width: auto;
+}
+.box-2 img{
+    margin: 1vw 1vw;
 }
 .elemento5 img{
    
@@ -94,11 +97,15 @@ body{
     grid-column: 2/3;
     grid-row: -3/-1;
 }
+.elemento7 img{
+    width: 30vw;
+}
+
 .elemento5 ,.elemento6,.elemento7{
-    
-    margin: 10vw 10vw;
     display: flex;
     justify-content: center;
+    
+
 }
 .elemento5 img ,.elemento6 img,.elemento7 img{
     
