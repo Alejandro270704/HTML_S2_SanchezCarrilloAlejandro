@@ -15,7 +15,7 @@ body{
 }
 .box-1 img{
     border-radius: 1vw;
-    margin: 40px 40px;
+    margin: 10vw 10vw;
 }
 .elemento1{
     grid-column: 1/2;
@@ -63,8 +63,8 @@ body{
 }
 .box-2{
     background-color: black;
-    margin: 80px 80px;
-    height: 100%;
+    margin: 10vw 5vw;
+   
     border-radius: 1vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -80,7 +80,7 @@ body{
 }
 .elemento7 img{
    
-    width: 40vw;
+    width: 20vw;
 }
 .elemento5{
     grid-column: 1/2;
@@ -96,7 +96,7 @@ body{
 }
 .elemento5 ,.elemento6,.elemento7{
     
-    margin: 40px 40px;
+    margin: 10vw 10vw;
     display: flex;
     justify-content: center;
 }
